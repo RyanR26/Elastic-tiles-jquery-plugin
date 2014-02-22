@@ -1,0 +1,51 @@
+<!doctype html >
+<html>
+<head>
+	
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="Elastic-tiles.jQuery.js"></script>
+<link href="Elastic-tiles.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<div id="tile-wrapper">
+	<ul>
+		<li>block 1</li>
+		<li>block 2</li>
+		<li>block 3</li>
+		<li>block 4</li>
+	</ul>
+
+	<ul>
+		<li>block 5</li>
+		<li>block 6</li>
+		<li>block 7</li>
+	</ul>
+	<ul>
+		<li>block 5</li>
+		<li>block 6</li>
+		<li>block 7</li>
+		<li>block 5</li>
+		<li>block 6</li>
+		<li>block 7</li>
+	</ul>
+	<ul>
+		<li>block 5</li>
+		<li>block 6</li>
+	</ul>
+</div>
+
+
+</body>
+
+<script>
+
+$(function() {
+	$('#tile-wrapper').tiles();
+});
+
+</script>
+
+</html>

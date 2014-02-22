@@ -1,0 +1,1 @@
+This is a simple jQuery plugin which will create elastic/repsonsive tiles from unordered list elements. Add a new <ul> to create a new row and as many <li> items withing the <ul> to create the number of tiles in the row.

@@ -1,2 +1,0 @@
-Tiled-jquery-plugin
-===================
